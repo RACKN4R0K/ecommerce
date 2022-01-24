@@ -24,7 +24,7 @@ function Product() {
             <div className='infopay'>
                 <p className='tipo-produto'>sneaker company</p>
                 <p className='titulo-produto'>fall limited edition senakers</p>
-                <p className='descricao-produto'>These low-profile sneakers are your prefect casuak wear companion. Featuring a dureble rebber outer sole, they'll withstand everthing the weather can offer.</p>
+                <p className='descricao-produto'>These low-profile sneakers are your prefect casual wear companion. Featuring a dureble rebber outer sole, they'll withstand everthing the weather can offer.</p>
                 <div className='preco-produtos'>
                     <p className='valor'>$125.00</p>
                     <p className='desconto'>50%</p> 
