@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Kumbh+Sans:wght@400;700&display=swap');
+.container{
+    margin: 10% 7% 10% 7%;
+    display: flex;
+    width: 80%;
+    font-family: 'Kumbh sans';
+}
+.imagens{
+    width: 50%;
+}
+.imagem-principal{
+    width: 100%;
+    border-radius: 15px;
+}
+.scroll-imagens{
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+.thumbnail{
+    width: 90px;
+    height: 90px;
+    border-radius: 15px;
+}
+.scroll-imagens img:nth-child(1){
+    opacity: 40%;
+}
+.thumbnail:nth-child(1){
+    outline: 2px solid hsl(26, 100%, 55%);
+}
+
+.infopay{
+    display: flex;
+    flex: 1;
+    justify-content: right;
+    margin-left: 10%;
+    margin-top: 5%;
+    flex-direction: column;
+}
+.tipo-produto{
+    font-size: 14px;
+    color: hsl(26, 100%, 55%);
+    text-transform: uppercase;
+    font-weight: bolder;
+    line-height: 3;
+}
+.titulo-produto{
+    font-size: 38px;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.descricao-produto{
+    margin-top: 7%;
+    font-size: 14px;
+    color: hsla(0, 0%, 0%, 0.400);
+    line-height: 1.5;
+}
+
+.preco-produtos{
+    display: flex;
+    margin-top: 7%;
+    align-items: center;
+}
+.valor{
+    font-size: 28px;
+    font-weight: bolder;
+}
+.desconto{
+    padding: 7px;
+    margin-left: 5px;
+    background-color: hsl(25, 100%, 94%);
+    border-radius: 5px;
+    color: hsl(26, 100%, 55%);
+    font-weight: bolder;
+}
+.valor-antes{
+   margin-top: 5%;
+   font-size: 16px; 
+   color: hsla(0, 0%, 0%, 0.300);
+   text-decoration: line-through;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15%;
+    align-items: center;
+}
+.quantidade-produtos{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.quantidade{
+    cursor: default;
+}
+.adiciona-carrinho{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(26, 100%, 55%);
+    margin-left: 15px;
+    padding: 15px;
+    font-size: 14px;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.carrinho{
+    color: white;
+}
+.conteudo-adiciona{
+    padding-left: 5px;
+}
