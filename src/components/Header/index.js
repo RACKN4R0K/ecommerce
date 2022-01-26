@@ -20,7 +20,7 @@ function header() {
                     </ul>
                 </div>
                 <div className='menu-commerce'>
-                    <Carrinho className='carrinho' Onclick='true'/>
+                    <Carrinho className='carrinho' Onclick={() => {console.log('Not a Number')}}/>
                     <img src={Usuario} className='Usuario' />
                 </div>
             </div>
